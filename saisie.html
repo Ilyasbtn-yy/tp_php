@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 4.3 - Formulaire POST</title>
+</head>
+<body>
+    <h2>Saisie des notes (POST)</h2>
+    <form action="traitement.php" method="POST">
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="note_info">Note Informatique :</label><br>
+        <input type="text" id="note_info" name="note_info" required><br><br>
+
+        <label for="note_math">Note Mathématiques :</label><br>
+        <input type="text" id="note_math" name="note_math" required><br><br>
+
+        <input type="submit" value="Valider et Calculer">
+    </form>
+    <br>
+    <a href="exo3_tableaux.php">Retour au TP</a>
+</body>
+</html>

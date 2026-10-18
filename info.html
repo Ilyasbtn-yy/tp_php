@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice 4.2 - Formulaire GET</title>
+</head>
+<body>
+    <h2>Formulaire d'informations (GET)</h2>
+    <form action="info.php" method="GET">
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="prenom">Prénom :</label><br>
+        <input type="text" id="prenom" name="prenom" required><br><br>
+
+        <label for="sexe">Sexe :</label><br>
+        <select id="sexe" name="sexe" required>
+            <option value="M">Monsieur (M)</option>
+            <option value="F">Madame (F)</option>
+        </select><br><br>
+
+        <input type="submit" value="Envoyer">
+    </form>
+    <br>
+    <a href="exo3_tableaux.php">Retour au TP</a>
+</body>
+</html>
