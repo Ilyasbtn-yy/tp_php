@@ -18,7 +18,7 @@ if (isset($_GET['nom'], $_GET['prenom'],$_GET['sexe']) && !empty($_GET['nom']) &
 
     $titre = ($sexe === 'M') ? "Bonjour Monsieur" : "Bonjour Madame";
 
-    echo "<p>$titre <strong>$prenom$nom</strong></p>";
+    echo "<p>$titre <strong>$prenom $nom</strong></p>";
 } else {
     echo "<p style='color:red;'>Veuillez remplir tous les champs du formulaire.</p>";
 }

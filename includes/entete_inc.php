@@ -19,5 +19,3 @@
 <header>
     <h1>Établissement : <?php echo ETABLISSEMENT; ?></h1>
 </header>
-</body>
-</html>

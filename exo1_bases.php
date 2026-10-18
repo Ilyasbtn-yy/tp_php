@@ -1,6 +1,5 @@
 <?php
 
-?>
 /**
  * Auteur : Ilyas Elboatani
  * Objectif : Manipulation des bases de PHP (déclaration de variables, types et affichage).
